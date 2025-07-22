@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e6811893512395ee2ebb97c4dc9f9cd8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e6811893512395ee2ebb97c4dc9f9cd8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e6811893512395ee2ebb97c4dc9f9cd8 = L.map(
+                "map_e6811893512395ee2ebb97c4dc9f9cd8",
+                {
+                    center: [33.59, -7.63],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ec6563bf884e850012256e2cbe482ceb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ec6563bf884e850012256e2cbe482ceb.addTo(map_e6811893512395ee2ebb97c4dc9f9cd8);
+        
+    
+            var circle_marker_ea75871f7d0d53218a8fd4c6cd4735f5 = L.circleMarker(
+                [33.5865, -7.6323],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e6811893512395ee2ebb97c4dc9f9cd8);
+        
+    
+        var popup_2d14896119c9032f95b2839793a5bb48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6907017e27b3ffc0cd0e53093cadb6c5 = $(`<div id="html_6907017e27b3ffc0cd0e53093cadb6c5" style="width: 100.0%; height: 100.0%;">Maarif - PM2.5: 35</div>`)[0];
+                popup_2d14896119c9032f95b2839793a5bb48.setContent(html_6907017e27b3ffc0cd0e53093cadb6c5);
+            
+        
+
+        circle_marker_ea75871f7d0d53218a8fd4c6cd4735f5.bindPopup(popup_2d14896119c9032f95b2839793a5bb48)
+        ;
+
+        
+    
+    
+            var circle_marker_c3851b6fc231b3e9502923b121cd6e5d = L.circleMarker(
+                [33.5926, -7.6613],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e6811893512395ee2ebb97c4dc9f9cd8);
+        
+    
+        var popup_8d7eaeec70d46d38b203cb16c72c8f02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8aa8d271e2bcc2141781f11b220c2121 = $(`<div id="html_8aa8d271e2bcc2141781f11b220c2121" style="width: 100.0%; height: 100.0%;">Ain Diab - PM2.5: 50</div>`)[0];
+                popup_8d7eaeec70d46d38b203cb16c72c8f02.setContent(html_8aa8d271e2bcc2141781f11b220c2121);
+            
+        
+
+        circle_marker_c3851b6fc231b3e9502923b121cd6e5d.bindPopup(popup_8d7eaeec70d46d38b203cb16c72c8f02)
+        ;
+
+        
+    
+    
+            var circle_marker_8f4368b785fea595d51f59dea2363196 = L.circleMarker(
+                [33.6011, -7.637],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e6811893512395ee2ebb97c4dc9f9cd8);
+        
+    
+        var popup_e4d8705282551cbe3b0fa8070d13ef79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1808b4b06156af2aacf000e7799334c4 = $(`<div id="html_1808b4b06156af2aacf000e7799334c4" style="width: 100.0%; height: 100.0%;">Derb Sultan - PM2.5: 28</div>`)[0];
+                popup_e4d8705282551cbe3b0fa8070d13ef79.setContent(html_1808b4b06156af2aacf000e7799334c4);
+            
+        
+
+        circle_marker_8f4368b785fea595d51f59dea2363196.bindPopup(popup_e4d8705282551cbe3b0fa8070d13ef79)
+        ;
+
+        
+    
+    
+            var circle_marker_8921555191536e111c17a445f830a665 = L.circleMarker(
+                [33.5967, -7.5914],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e6811893512395ee2ebb97c4dc9f9cd8);
+        
+    
+        var popup_eff5ee99ab82ee6e68a8a86e5c61252c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_840a32c48910ef626890e161a411b01d = $(`<div id="html_840a32c48910ef626890e161a411b01d" style="width: 100.0%; height: 100.0%;">Hay Mohammadi - PM2.5: 65</div>`)[0];
+                popup_eff5ee99ab82ee6e68a8a86e5c61252c.setContent(html_840a32c48910ef626890e161a411b01d);
+            
+        
+
+        circle_marker_8921555191536e111c17a445f830a665.bindPopup(popup_eff5ee99ab82ee6e68a8a86e5c61252c)
+        ;
+
+        
+    
+    
+            var circle_marker_941694d9b8834a8407f820ab407aea27 = L.circleMarker(
+                [33.6117, -7.5624],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e6811893512395ee2ebb97c4dc9f9cd8);
+        
+    
+        var popup_e63eb098010f2090d0d5973bcbcf3f9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_316a18165d7081114e9dd5666803b2c4 = $(`<div id="html_316a18165d7081114e9dd5666803b2c4" style="width: 100.0%; height: 100.0%;">Sidi Moumen - PM2.5: 40</div>`)[0];
+                popup_e63eb098010f2090d0d5973bcbcf3f9b.setContent(html_316a18165d7081114e9dd5666803b2c4);
+            
+        
+
+        circle_marker_941694d9b8834a8407f820ab407aea27.bindPopup(popup_e63eb098010f2090d0d5973bcbcf3f9b)
+        ;
+
+        
+    
+</script>
+</html>
